@@ -1,0 +1,24 @@
+/* this creates a sticky footer */
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+main {
+	background-image: url("../images/sunset.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    flex: 1 0 auto;
+}
+
+.nav-wrapper, #sticky-footer {
+	background-color: #616161;
+}
+
+.tabs .indicator {
+	background-color: #e64a19 !important;
+
+}
